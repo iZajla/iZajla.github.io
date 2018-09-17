@@ -1,0 +1,69 @@
+	#foto{
+		width: 100%;
+		z-index: 10;
+	}
+	
+	
+	#logo{
+		margin: 0 auto; 
+		width: 478px;
+		height: 97px;
+		z-index: 100;
+		
+		border-bottom: 2px #fff solid;
+		text-align: center;
+	}	
+	
+	#logo img{
+		width: 444px;
+		height: 63px;
+	}	
+	
+	
+	
+	#introHolder{
+		padding-top: 130px;
+		margin: 0px auto 0 auto; 
+		/*width: 598px; */
+		width: 478px;
+		vertical-align: center;
+		z-index: 80;
+		
+		text-align: center;
+	}
+	
+	
+	
+	
+	#introHolder p{
+		padding: 25px; 
+		width: 428px;
+		line-height: 1.3em; 
+		vertical-align: center; 
+		font-size: 22px;
+		z-index: 100;
+		
+		text-align: center;
+	}
+	
+	
+	#lang{
+		margin-top: 8px;
+		position: relative;
+		left: 33%;
+		z-index: 100;
+	}
+	
+	.flag{
+		float: left; 
+		width: 38px;
+		height: 25px;
+		margin-right: 19px; 
+		cursor: hand;
+		cursor: pointer
+	}
+	
+	
+#loader,#loader_m,#loader_n{
+	display:none;
+}

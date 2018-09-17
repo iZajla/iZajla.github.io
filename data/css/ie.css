@@ -1,0 +1,4 @@
+#introLeft,#introRight{
+	background-color: #ffffff;
+  	filter:alpha(opacity=0);
+}

@@ -1,0 +1,26 @@
+html, body{
+	font-family: "futura-pt-n4","futura-pt",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#infoTop h2, #infoBottom h2, #boldItalic{
+	font-family: "futura-pt-n7","futura-pt",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+#naviTop ul li a.sel{
+	font-family: "futura-pt-n7","futura-pt",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+#introLeft,#introRight{
+	background-color: #ffffff;
+  	filter:alpha(opacity=0);
+}
+
+#infoTop p{
+	min-width: 220px;
+}

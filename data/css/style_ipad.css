@@ -1,0 +1,103 @@
+
+html,body{
+	 -webkit-transform: translateZ(0);
+}
+
+.all{
+	 -webkit-transform: translateZ(0);
+}
+
+#sled{
+	 -webkit-transform: translateZ(0);
+}
+
+#tuhkaHolder,#freshHolder{
+	 -webkit-transform: translateZ(0);
+}
+
+.imgLayer,#slider,.zoomPointer{
+    -webkit-transform: translateZ(0);
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	html, body{
+		line-height: 20px;
+	}
+	
+	#gender{
+		top: 219px;
+	}
+	
+	#infoTop.male{
+		top: 335px;
+	}
+	
+	#infoBottom.male{
+		top: 336px;
+	}
+	
+	#infoTop.female{
+		top: 403px;
+	}
+
+	#infoBottom.female{
+		top: 404px;
+	}
+
+	#naviTop2.male{
+		height: 297px;
+	}
+	
+	#naviTop2.female{
+		height: 360px;
+	}
+	
+	#language{
+		bottom: 24px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+	#infoTop.male,#infoBottom.male{
+		top: 380px;
+	}
+	
+	#infoBottom.male{
+		top: 384px;
+	}
+
+	#naviTop2.male{
+		height: 345px;
+	}
+	
+	#infoTop.female{
+		top: 453px;
+	}
+
+	#infoBottom.female{
+		top: 455px;
+	}
+	
+	#naviTop2.female{
+		/*height: 416px;*/
+		height: 414px;
+	}
+
+}

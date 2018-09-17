@@ -1,0 +1,95 @@
+
+	#lang{
+		margin-top: 8px;
+		position: relative;
+		left: 50%;
+		margin-left: -75px;
+		z-index: 100;
+	}
+	
+	.flag{
+		float: left; 
+		width: 38px;
+		height: 25px;
+		margin-right: 19px; 
+		cursor: hand;
+		cursor: pointer
+	}
+	
+	#lang_front{
+		margin-top: 8px;
+		position: relative;
+		left: 50%;
+		margin-left: -75px;
+		z-index: 100;
+	}
+	
+	.flag_front{
+		float: left; 
+		width: 38px;
+		height: 25px;
+		margin-right: 19px; 
+		cursor: hand;
+		cursor: pointer
+	}
+	
+	#foto{
+		width: 100%;
+		z-index: 10;
+		min-width: 420px;
+		min-height: 335px;
+	}
+	
+	#introHolder{
+		padding-top: 130px;
+		margin: 0px auto 0 auto; 
+		/*width: 478px;*/
+		vertical-align: center;
+		z-index: 80;
+		
+		text-align: center;
+		
+		width: 50%;
+		min-width: 50%;
+	}
+	
+	#logo{
+		margin: 0 auto; 
+		/*width: 478px;
+		height: 97px;*/
+		z-index: 100;
+		
+		border-bottom: 2px #fff solid;
+		text-align: center;
+		
+		width: 100%;
+		padding-bottom: 34px;
+	}	
+	
+	#logo img{
+		/*width: 444px;
+		height: 63px;*/
+		
+		width: 93%;
+	}	
+
+	#introHolder p{
+		padding: 25px; 
+		/*width: 428px;*/
+		line-height: 1.3em; 
+		vertical-align: center; 
+		font-size: 22px;
+		z-index: 100;
+		
+		text-align: center;
+		
+		width: 80%;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
